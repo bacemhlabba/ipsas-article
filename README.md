@@ -52,3 +52,8 @@ This project uses Django for the backend.
    ```sh
    git clone https://github.com/bacemhlabba/ipsas-article.git
    cd ipsas-article/backend
+2.Create a virtual environment:
+   ```sh
+   python3 -m venv venv
+   source venv/bin/activate
+4.Install dependencies:
