@@ -48,12 +48,23 @@ This project uses Django for the backend.
 
 #### Installation
 
-1. Clone the repository:
+2. Clone the repository:
    ```sh
    git clone https://github.com/bacemhlabba/ipsas-article.git
    cd ipsas-article/backend
-2.Create a virtual environment:
+3. Clone the repository:
    ```sh
    python3 -m venv venv
    source venv/bin/activate
-4.Install dependencies:
+4. Install dependencies:
+   ```sh
+   pip install -r requirements.txt
+ #### Running the Server
+1. Apply migrations:
+   ```sh
+   python manage.py migrate
+3. Run the development server:
+   ```sh
+   python manage.py runserver
+#### Contributing
+Pull requests and stars are always welcome. For bugs and feature requests, please create an issue.
